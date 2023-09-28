@@ -1,0 +1,55 @@
+/* App.css */
+/* Style the MovieLand title */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center; /* Center the title */
+}
+
+/* Style the search container */
+div.search-container {
+    text-align: center; /* Center the input and button */
+    margin-bottom: 20px;
+}
+
+/* Style the input field */
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+}
+
+/* Style the search button */
+button.search-button {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the movie list container */
+div.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style each movie card */
+div.movie-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Style the movie image */
+div.movie-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the movie title */
+h3.movie-title {
+    margin-top: 10px;
+}
